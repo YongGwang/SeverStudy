@@ -7,21 +7,74 @@ using ServerCore;
 
 namespace Server
 {
-	class Packet
+	public abstract class Packet
 	{
 		public ushort size;
 		public ushort packetId;
+
+		public abstract ArraySegment<byte> Write();
+		public abstract void Read(ArraySegment<byte> s);
 	}
 
 	class PlayerInfoReq : Packet
 	{
 		public long playerId;
-	}
+		public string name;
 
-	class PlayerInfoOk : Packet
-	{
-		public int hp;
-		public int attack;
+		public PlayerInfoReq()
+		{
+			this.packetId = (ushort)PacketID.PlayerInfoReq;
+		}
+
+
+		public override void Read(ArraySegment<byte> segment)
+		{
+			ushort count = 0;
+
+			ReadOnlySpan<byte> s = new ReadOnlySpan<byte>(segment.Array, segment.Offset, segment.Count);
+
+			count += sizeof(ushort);
+			count += sizeof(ushort);
+			this.playerId = BitConverter.ToInt64(s.Slice(count, s.Length - count));
+			count += sizeof(long);
+
+			//string
+			ushort nameLen = BitConverter.ToUInt16(s.Slice(count, s.Length - count));
+			count += sizeof(ushort);
+			this.name = Encoding.Unicode.GetString(s.Slice(count, nameLen));
+		}
+
+		public override ArraySegment<byte> Write()
+		{
+			ArraySegment<byte> segment = SendBufferHelper.Open(4096);
+
+			ushort count = 0;
+			bool success = true;
+
+			Span<byte> s = new Span<byte>(segment.Array, segment.Offset, segment.Count);
+
+			count += sizeof(ushort);
+			success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), this.packetId);
+			count += sizeof(ushort);
+			success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), this.packetId);
+			count += sizeof(long);
+			success &= BitConverter.TryWriteBytes(s, count);
+
+			// string
+			ushort nameLen = (ushort)Encoding.Unicode.GetByteCount(this.name);
+			success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), nameLen);
+			count += sizeof(ushort);
+			Encoding.Unicode.GetBytes(this.name);
+			Array.Copy(Encoding.Unicode.GetBytes(this.name), 0, segment.Array, count, nameLen);
+			count += nameLen;
+
+			success &= BitConverter.TryWriteBytes(s, count);
+
+			if (success == false)
+				return null;
+
+			return SendBufferHelper.Close(count);
+		}
 	}
 
 	public enum PacketID
@@ -41,30 +94,22 @@ namespace Server
 
 		public override void OnRecvPacket(ArraySegment<byte> buffer)
 		{
-			int pos = 0;
+			ushort count = 0;
 
 			ushort size = BitConverter.ToUInt16(buffer.Array, buffer.Offset); 
-			pos += 2;
-			ushort id = BitConverter.ToUInt16(buffer.Array, buffer.Offset + pos);
-			pos += 2;
+			count += 2;
+			ushort id = BitConverter.ToUInt16(buffer.Array, buffer.Offset + count);
+			count += 2;
 
 			// TODO
 			switch ((PacketID)id)
 			{
 				case PacketID.PlayerInfoReq:
 					{
-						long playerId = BitConverter.ToInt64(buffer.Array, buffer.Offset + pos);
-						pos += 8;
+						PlayerInfoReq p = new PlayerInfoReq();
+						p.Read(buffer);
+                        Console.WriteLine($"Player InfoReq: {p.playerId} {p.name}");
 					}
-					break;
-				case PacketID.PlayerInfoOk:
-					{
-						int hp = BitConverter.ToInt32(buffer.Array, buffer.Offset + pos);
-						pos += 4;
-						int attack = BitConverter.ToInt32(buffer.Array, buffer.Offset + pos);
-						pos += 4;
-					}
-					//Handle_PlayerInfoOk();
 					break;
 				default:
 					break;
