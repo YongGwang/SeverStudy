@@ -1,0 +1,131 @@
+diff --git a/1.html b/1.html
+deleted file mode 100644
+index 9ac995c..0000000
+--- a/1.html
++++ /dev/null
+@@ -1,25 +0,0 @@
+-<!doctype html>
+-<html>
+-  <head>
+-	<title>WEB - html</title>
+-	<meta charset="utf-8">
+-  </head>
+-  <body>
+-	<h1><a href = "index.html">WEB</h1>
+-	<ol>
+-		<li><a href = "1.html">HTML</a></li>
+-		<li><a href = "2.html">CSS</a></li>
+-		<li><a href = "3.html">JavaScript</a></li>
+-	</ol>
+-	<h2>HTML</h2>
+-
+-<p><img src="img_1.png" width = "50%"></p>
+-<p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 speicification">
+-HTMLとは、Hyper Text Markup Language（ハイパーテキスト・マークアップ・ランゲージ）の略で、<br>
+-Webページを作るための最も基本的なマークアップ言語のひとつです。<br>
+-普段、私たちがブラウザで観ているWebページのほとんどが、HTMLで作られています。<br>
+-<a><br><br><br>
+-
+-</body>
+-</html>
+-
+diff --git a/2.html b/2.html
+deleted file mode 100644
+index 5faac4e..0000000
+--- a/2.html
++++ /dev/null
+@@ -1,25 +0,0 @@
+-<!doctype html>
+-<html>
+-  <head>
+-	<title>WEB - CSS</title>
+-	<meta charset="utf-8">
+-  </head>
+-  <body>
+-	<h1><a href = "index.html">WEB</h1>
+-	<ol>
+-		<li><a href = "1.html">HTML</a></li>
+-		<li><a href = "2.html">CSS</a></li>
+-		<li><a href = "3.html">JavaScript</a></li>
+-	</ol>
+-	<h2>CSS</h2>
+-
+-<a href="https://www.w3.org/Style/CSS/specs.en.html" 
+-	target="_blank" title="html5 speicification">
+-CSSとは、“Cascading Style Sheets” の頭文字をとったものであり、スタイルシートとも呼ばれます。<br>
+-HTMLが、見出しやヘッダ情報などWebページの文書構造を形作るための言語であるのに対し、<br>
+-CSS言語は文書構造にデザインを施し、見栄えを整える役割を担っています。<br>
+-<br><br><br>
+-
+-</body>
+-</html>
+-
+diff --git a/3.html b/3.html
+deleted file mode 100644
+index 2120a9b..0000000
+--- a/3.html
++++ /dev/null
+@@ -1,27 +0,0 @@
+-<!doctype html>
+-<html>
+-  <head>
+-	<title>WEB - JavaScript</title>
+-	<meta charset="utf-8">
+-  </head>
+-  <body>
+-	<h1><a href = "index.html">WEB</h1>
+-	<ol>
+-		<li><a href = "1.html">HTML</a></li>
+-		<li><a href = "2.html">CSS</a></li>
+-		<li><a href = "3.html">JavaScript</a></li>
+-	</ol>
+-	<h2>JavaScript</h2>
+-
+-<a href="https://developer.mozilla.org/ja/docs/Web/JavaScript" 
+-	target="_blank" title="html5 speicification">
+-JavaScriptはプロトタイプベースのオブジェクト指向スクリプト言語であるが、<br>
+-クラスなどのクラスベースに見られる機能も取り込んでいる。<br>
+-利用される場面はWebサイト・Webアプリ・バックエンド・デスクトップアプリ・モバイルアプリなど、<br>
+-ブラウザからサーバー、デスクトップからスマートフォンまで多岐にわたっている。<br>
+-Javaと似た名称を持つが、異なるプログラミング言語である<br></a>
+-<br><br><br>
+-
+-</body>
+-</html>
+-
+diff --git a/img_1.png b/img_1.png
+deleted file mode 100644
+index 37d3f75..0000000
+Binary files a/img_1.png and /dev/null differ
+diff --git a/index.html b/index.html
+deleted file mode 100644
+index dd29d3c..0000000
+--- a/index.html
++++ /dev/null
+@@ -1,26 +0,0 @@
+-<!doctype html>
+-<html>
+-  <head>
+-	<title>WEB - Welcome</title>
+-	<meta charset="utf-8">
+-  </head>
+-  <body>
+-	<h1><a href = "index.html">WEB</h1>
+-	<ol>
+-		<li><a href = "1.html">HTML</a></li>
+-		<li><a href = "2.html">CSS</a></li>
+-		<li><a href = "3.html">JavaScript</a></li>
+-	</ol>
+-	<h2>WEB</h2>
+-	<p>The World Wide Web (abbreviated WWW or the Web) is an information space 
+-	where documents and other web resources are identified by Uniform Resource Locators (URLs), 
+-	interlinked by hypertext links, and can be accessed via the Internet.
+-	[1] English scientist Tim Berners-Lee invented the World Wide Web in 1989. 
+-	He wrote the first web browser computer program in 1990 while employed at CERN 
+-	in Switzerland.[2][3] The Web browser was released outside of CERN in 1991, 
+-	first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.</p>
+-
+-<p><img src="img_1.png" width = "50%"></p>
+-</body>
+-</html>
+-
