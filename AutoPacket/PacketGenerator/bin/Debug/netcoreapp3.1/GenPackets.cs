@@ -1,3 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Net;
+using ServerCore;
+
+public enum PacketID
+{
+	PlayerInfoReq = 1,
+}
+
 
 class PlayerInfoReq
 {
@@ -91,3 +102,4 @@ class PlayerInfoReq
 		return SendBufferHelper.Close(count);
 	}
 }
+

@@ -6,11 +6,33 @@ namespace PacketGenerator
 {
     class PacketFormat
     {
+		// {0} packet name/number list
+		// {1} packet list
+		public static string fileFormat =
+@"using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Net;
+using ServerCore;
+
+public enum PacketID
+{{
+	{0}
+}}
+
+{1}
+";
+
+		// {0} packet name
+		// {1} packet number
+		public static string packetEnumFormat = 
+@"{0} = {1},";
+
 		// {0} packet name
 		// {1} member variable
 		// {2} member variable Read
 		// {3} member variable Write
-        public static string packetFormat =
+		public static string packetFormat =
 @"
 class {0}
 {{
