@@ -1,0 +1,14 @@
+E:\GitTestDown\AutoPacket\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.exe
+E:\GitTestDown\AutoPacket\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.deps.json
+E:\GitTestDown\AutoPacket\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.runtimeconfig.json
+E:\GitTestDown\AutoPacket\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.runtimeconfig.dev.json
+E:\GitTestDown\AutoPacket\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.dll
+E:\GitTestDown\AutoPacket\PacketGenerator\bin\Debug\netcoreapp3.1\PacketGenerator.pdb
+E:\GitTestDown\AutoPacket\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.csproj.AssemblyReference.cache
+E:\GitTestDown\AutoPacket\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitTestDown\AutoPacket\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.AssemblyInfoInputs.cache
+E:\GitTestDown\AutoPacket\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.AssemblyInfo.cs
+E:\GitTestDown\AutoPacket\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.csproj.CoreCompileInputs.cache
+E:\GitTestDown\AutoPacket\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.dll
+E:\GitTestDown\AutoPacket\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.pdb
+E:\GitTestDown\AutoPacket\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.genruntimeconfig.cache
