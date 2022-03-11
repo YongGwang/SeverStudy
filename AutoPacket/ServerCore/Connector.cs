@@ -12,7 +12,7 @@ namespace ServerCore
 
 		public void Connect(IPEndPoint endPoint, Func<Session> sessionFactory)
 		{
-			// 휴대폰 설정
+			// phone setting
 			Socket socket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 			_sessionFactory = sessionFactory;
 

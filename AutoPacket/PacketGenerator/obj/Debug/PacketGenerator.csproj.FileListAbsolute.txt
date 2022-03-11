@@ -1,0 +1,14 @@
+E:\GitTestDown\PacketGenerator\PacketGenerator\bin\PacketGenerator.exe
+E:\GitTestDown\PacketGenerator\PacketGenerator\bin\PacketGenerator.deps.json
+E:\GitTestDown\PacketGenerator\PacketGenerator\bin\PacketGenerator.runtimeconfig.json
+E:\GitTestDown\PacketGenerator\PacketGenerator\bin\PacketGenerator.runtimeconfig.dev.json
+E:\GitTestDown\PacketGenerator\PacketGenerator\bin\PacketGenerator.dll
+E:\GitTestDown\PacketGenerator\PacketGenerator\bin\PacketGenerator.pdb
+E:\GitTestDown\PacketGenerator\PacketGenerator\obj\Debug\PacketGenerator.csproj.AssemblyReference.cache
+E:\GitTestDown\PacketGenerator\PacketGenerator\obj\Debug\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitTestDown\PacketGenerator\PacketGenerator\obj\Debug\PacketGenerator.AssemblyInfoInputs.cache
+E:\GitTestDown\PacketGenerator\PacketGenerator\obj\Debug\PacketGenerator.AssemblyInfo.cs
+E:\GitTestDown\PacketGenerator\PacketGenerator\obj\Debug\PacketGenerator.csproj.CoreCompileInputs.cache
+E:\GitTestDown\PacketGenerator\PacketGenerator\obj\Debug\PacketGenerator.dll
+E:\GitTestDown\PacketGenerator\PacketGenerator\obj\Debug\PacketGenerator.pdb
+E:\GitTestDown\PacketGenerator\PacketGenerator\obj\Debug\PacketGenerator.genruntimeconfig.cache

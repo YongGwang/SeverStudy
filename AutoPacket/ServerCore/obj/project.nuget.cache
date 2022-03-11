@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Z0CWsSncMhC+uR3TdOQJ+CpzMce2yvmoFfRQ5WZB9t3/hypZXaPvZPP631E+na4Q4y3YFdMjrQXO1gmRLCFCA==",
+  "dgSpecHash": "2zvrSYLnLHxyQonaMispVnyAmRSLklCnQYyuxdwy6+uQx5zAmUvZS7+yS1uSnxmUyAPKngVOrJJ/Jur81E+WzQ==",
   "success": true,
-  "projectFilePath": "E:\\GitTestDown\\AutoPacket\\ServerCore\\ServerCore.csproj",
+  "projectFilePath": "E:\\GitTestDown\\PacketGenerator\\ServerCore\\ServerCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

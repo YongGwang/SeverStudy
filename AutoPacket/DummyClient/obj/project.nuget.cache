@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6AoJmGmI646Bzkluodx/d0kC72SID4R+SOr/WPv975LkrXGx+0cn5v51bYIOy1O/RcM0kuu6qRTuddydQZeTuA==",
+  "dgSpecHash": "JXnnXSKg/z/58WboFAHUnDphGncb+k1OPiBIe452cTRCr8Fv7SKCZS+qcJSyRRFEb4VUum97jI1oOr9wohpURg==",
   "success": true,
-  "projectFilePath": "E:\\GitTestDown\\AutoPacket\\DummyClient\\DummyClient.csproj",
+  "projectFilePath": "E:\\GitTestDown\\PacketGenerator\\DummyClient\\DummyClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

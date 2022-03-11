@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitTestDown\\AutoPacket\\ServerCore\\ServerCore.csproj": {}
+    "E:\\GitTestDown\\PacketGenerator\\ServerCore\\ServerCore.csproj": {}
   },
   "projects": {
-    "E:\\GitTestDown\\AutoPacket\\ServerCore\\ServerCore.csproj": {
+    "E:\\GitTestDown\\PacketGenerator\\ServerCore\\ServerCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitTestDown\\AutoPacket\\ServerCore\\ServerCore.csproj",
+        "projectUniqueName": "E:\\GitTestDown\\PacketGenerator\\ServerCore\\ServerCore.csproj",
         "projectName": "ServerCore",
-        "projectPath": "E:\\GitTestDown\\AutoPacket\\ServerCore\\ServerCore.csproj",
+        "projectPath": "E:\\GitTestDown\\PacketGenerator\\ServerCore\\ServerCore.csproj",
         "packagesPath": "C:\\Users\\SoSoSon\\.nuget\\packages\\",
-        "outputPath": "E:\\GitTestDown\\AutoPacket\\ServerCore\\obj\\",
+        "outputPath": "E:\\GitTestDown\\PacketGenerator\\ServerCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,7 +25,8 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -57,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

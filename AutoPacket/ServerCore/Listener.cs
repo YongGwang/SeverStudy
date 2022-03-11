@@ -16,11 +16,11 @@ namespace ServerCore
 			_listenSocket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 			_sessionFactory += sessionFactory;
 
-			// 문지기 교육
+			// gatekeeper study
 			_listenSocket.Bind(endPoint);
 
-			// 영업 시작
-			// backlog : 최대 대기수
+			// start business
+			// backlog : max standby
 			_listenSocket.Listen(10);
 
 			SocketAsyncEventArgs args = new SocketAsyncEventArgs();

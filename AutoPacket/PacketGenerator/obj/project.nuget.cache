@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "St3OgeHC3cRSFFLGyhvxAY6g763CILvyq9aWqnv2ivNWFLwN9D8w3yfwjFXgM9KqDUvOEv1/3aP2FvFaWP4aqA==",
+  "dgSpecHash": "N1u2vWuT7wp2SXj2mHHPW84vzd+Zg4fcbdBsVgZ51qVDp7vqZREEICrAwRbY4LX/GwfDOvd/KlbvcHsmISlOaA==",
   "success": true,
-  "projectFilePath": "E:\\GitTestDown\\AutoPacket\\PacketGenerator\\PacketGenerator.csproj",
+  "projectFilePath": "E:\\GitTestDown\\PacketGenerator\\PacketGenerator\\PacketGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
