@@ -21,7 +21,7 @@
 
 <br>
 
-## PacketFormatを決めているコード
+## Packet形式を決めているコード
 (https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/PacketGenerator/PacketFormat.cs)
 
 ## 自動生成されたコードのコピー場所
