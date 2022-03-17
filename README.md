@@ -22,3 +22,4 @@
 
 ## 自動生成されたコードのコピー場所
 (https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/Common/Packet/GenPackets.bat)
+
