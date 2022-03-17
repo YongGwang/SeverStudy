@@ -17,11 +17,11 @@
 > (...AutoPacket\Server\bin\Debug\netcoreapp3.1\Server.exe)<br>
 > 2.その後DummyClientを起動-信号を送る<br>
 > (...AutoPacket\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.exe)<br>
-> Packet通信に成功した後、時間が過ぎて通信終了になります。<br><br><br>
+> Packet通信に成功した後、時間が過ぎて通信終了になります。
+<br><br>
 
 ## PacketFormatを決めているコード
 (https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/PacketGenerator/PacketFormat.cs)
 
 ## 自動生成されたコードのコピー場所
 (https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/Common/Packet/GenPackets.bat)
-
