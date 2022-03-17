@@ -17,4 +17,12 @@
 > 2.その後DummyClientを起動-信号を送る　(...AutoPacket\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.exe)<br>
 > Packet通信に成功した後、時間が過ぎて通信終了になります。
 
-情報をSerializationをしている場所
+## Player情報をSerializationをしているコード
+(https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/PacketGenerator/PacketFormat.cs)
+
+## PacketFormatを決めているコード
+(https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/PacketGenerator/PacketFormat.cs)
+
+## 自動生成されたコード
+(https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/Server/Packet/GenPackets.cs)<br>
+(https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/DummyClient/Packet/GenPackets.cs)<br>
