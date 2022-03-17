@@ -20,6 +20,5 @@
 ## PacketFormatを決めているコード
 (https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/PacketGenerator/PacketFormat.cs)
 
-## 自動生成されたコード
-(https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/Server/Packet/GenPackets.cs)<br>
-(https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/DummyClient/Packet/GenPackets.cs)<br>
+## 自動生成されたコードのコピー場所
+(https://github.com/YongGwang/SeverStudy/blob/main/AutoPacket/Common/Packet/GenPackets.bat)
