@@ -13,8 +13,8 @@
 
 #### **実行するには下記を読んでください** 
 > プロジェクトをダウンロードした後<br>
-> 1.まずサーバープログラムを起動-待機　(...AutoPacket\Server\bin\Debug\netcoreapp3.1\Server.exe)
-> 2.その後DummyClientを起動-信号を送る　(...AutoPacket\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.exe)
+> 1.まずサーバープログラムを起動-待機　(...AutoPacket\Server\bin\Debug\netcoreapp3.1\Server.exe)<br>
+> 2.その後DummyClientを起動-信号を送る　(...AutoPacket\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.exe)<br>
 > Packet通信に成功した後、時間が過ぎて通信終了になります。
 
 情報をSerializationをしている場所
