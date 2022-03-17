@@ -11,5 +11,7 @@
 > 簡単にDummyClientとサーバーとの送信、受信をテストするために作成しました。<br>
 
 
-#### **VisualStudio2022で　下記のリンクを確認お願いします。** 
-()
+#### **実行するには下記を読んでください** 
+> プロジェクトをダウンロードした後<br>
+> 1.まずサーバーの実行プログラムを起動　(.../AutoPacket\DummyClient\bin\Debug\DummyClient.exe)
+> 2.その後サーバーの実行プログラムを起動　(.../AutoPacket\DummyClient\bin\Debug\DummyClient.exe)
